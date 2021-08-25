@@ -1,0 +1,49 @@
+*
+{
+
+    padding:0;
+    margin:0;
+
+}
+
+#Menu
+{
+    width:100vw;
+
+    background-color: rgb(111, 246, 0);
+    height:7.5vh;
+    float:left;
+    border: 2px solid black;
+    
+}
+
+#Home
+{
+    height: 100%;
+    font-size: 350%;
+    margin-left: 35%;
+    text-align: center;
+    float:left;
+    display: inline;
+    width: 20vw;
+
+}
+
+a
+{
+    font-size: 150%;
+    float:left;
+    
+}
+#div2
+{
+    background-color: red;
+    width: 100vw;
+    height: 20vh;
+}
+#div3
+{
+    height: 100%;
+    width: 100%;
+    background-color: navy;
+}
