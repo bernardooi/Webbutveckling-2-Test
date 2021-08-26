@@ -15,7 +15,18 @@
     min-width: none;
     
 }
+#button
+{
+ 
+    border: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
 
+}
 
 #Menu
 {
@@ -125,4 +136,9 @@ background-color:rgb(114, 114, 243);
 {
     font-size: 40px;
    padding-top:13px;
+}
+footer
+{
+    width:100vw;
+
 }
