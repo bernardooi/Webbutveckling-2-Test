@@ -6,49 +6,81 @@
 
 }
 
+#biggest
+{
+
+    max-width: 100%;
+    max-height: max-content ;
+
+    min-width: none;
+    
+}
+
 
 #Menu
 {
-    width:100vw;
-    height:7.5vh;
+    width:100%;
+    height:9vh;
     border: 2px solid black;
-    text-align: center  ;
+    text-align: center;
     font-size: 150%;
-    
+    margin:0 auto;
 }
-
-
 a
 {
-    font-size: 150%;
-    float:left;
-    display: inline;
+    color: black;
+    font-weight: bold;
 }
+img{
+    float:left;
+    width: 50px;
+    height: 50px;
+}
+
+
 #div2
 {
     
-    width: 100vw;
-    height: 20vh;
-    margin:0;
-    padding:0;
-    background-color: red;
+    width: 100%;
+    height: 15vh;
+    margin:0 auto;
+
 }
+
+
 #div3
 {
-    height: 15vh;
+    height: 7.5vh;
     width: 100%;
     font-size: 150%;
     text-align: center;
-    background-color:orange;    
+background-color:rgb(114, 114, 243);
+}
+
+#title
+{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    margin-left:7.5vw;
+  background-color: rgba(0, 0, 139, 0.452);
+}
+#OM
+{
+    width:30%;
+    height: 100%;
+    float:right;
+    background-color: rgba(0, 0, 139, 0.452);
+    margin-right:4.5vw;
 }
 
 #div4
 {
-    margin-left:5vw;    
-    width:20vw;
+    margin-left:10vw;    
+    width: 35vw;
     height: 55vh;
-    border:2px solid black;
-    background: url();
+
+    background: url(https://www.komplett.se/img/p/800/1133140_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     float:left;
@@ -57,9 +89,40 @@ a
 
 #div5
 {
-    width:50vw;
+    width:20vw;
     height: 55vh;
-    
     float:left;
     margin-left:10%;
+    background-color: white;
+}
+
+#text
+{
+    width: 100%;
+    height: 20%;
+   
+}
+#big
+{
+    background-color: rgb(228, 228, 228);
+    margin:0 auto;
+    width:80%;
+    height: 94%;
+    margin-top:-120px;
+}
+
+#bigger
+{
+
+    background:url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/385800/ead22b544aed120a6c60e42627ce71858396d227.jpg);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.titlar
+{
+    font-size: 40px;
+   padding-top:13px;
 }
